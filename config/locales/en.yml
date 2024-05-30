@@ -1,0 +1,7 @@
+en:
+  colors:
+    red: "red"
+    blue: "blue"
+  greetings:
+    hello: "Hello"
+    goodbye: "Goodbye"

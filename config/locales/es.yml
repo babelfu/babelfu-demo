@@ -1,0 +1,6 @@
+es:
+  colors:
+    red: "rojo"
+    blue: "azul"
+  greetings:
+    hello: "Hola"
