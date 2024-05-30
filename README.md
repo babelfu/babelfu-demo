@@ -44,8 +44,11 @@ Return to Babelfu and click "Sync translations" to fetch the changes. In the fut
 
 Once on the translations view, check the "Locales" dropdown to select the languages you want to see. You can filter the translations using the "With proposals" and "With changes" toggles. I must rethink the behaviour in conjunction with the "Locales" dropdown and click "Search" to apply the changes. Of course, you can filter the translations by key.
 
-![image](https://github.com/babelfu/demo/assets/16633/5f72f9a9-c679-4192-bb8f-5836c3d5098e)
+When there are changes, they will appear in different colours (something that needs to be improved), yellow for the value in the base branch, blue the value in the head branch, and green the proposals pending to commit on Babelfu.
+![image](https://github.com/babelfu/demo/assets/16633/55037247-1dfe-43bb-822e-271b74470695)
 
+Try editing several translations, for example:
+![image](https://github.com/babelfu/demo/assets/16633/647cbe96-1609-40b8-bd30-6cd70eef4ef3)
 
-- You will see the changes on the "Translations" page. Now, you can modify the same translations or others. Once you are happy with the changes, click "Commit changes" to commit the changes to the pull request.
-On the "Commits view," you will see a preview of the changes. If you are sure, you can click "Commit changes" to commit the changes to the pull request. Under the hood, it will sync the head and base branches.
+Once you are happy with the changes, click "Commit changes". On the "Commits view," you will see a preview of the changes. You can click "Commit changes" to commit the changes to the pull request if you are sure. Under the hood, it will sync the head and base branches.
+
