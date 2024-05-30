@@ -29,11 +29,16 @@ Now you can create a new Project for real. You can leave the "name" empty, selec
 
 You will be redirected to the "Project" page. The project will start syncing immediately, fetching the branches and opening pull requests.
 
+![image](https://github.com/babelfu/demo/assets/16633/d6ca1895-47dd-41d3-8a37-8d2f9a8efb1c)
+
 Babelfu allows the exploration and modification of the translations by branch or pull request. While you can modify the translations for a branch directly, I recommend modifying the translations in an existing pull request as you would in a normal code change. In the future, I would like to:
     - Create a pull request from the UI.
     - Configure if we allow the modification of the translations directly in the branch.
     
-Go to your repository and create a new pull request to add, modify, or remove translations in some languages.
+Go to your repository and create a new pull request, for example:
+![image](https://github.com/babelfu/demo/assets/16633/ba12171d-3499-4666-b677-1244a1707f63)
+
+
 Return to Babelfu and click "Sync translations" to fetch the changes. In the future it would listen to the GitHub events to sync automatically.
 
 Check the "Locales" dropdown to select the languages you want to see.
