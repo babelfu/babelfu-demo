@@ -36,8 +36,7 @@ Babelfu allows the exploration and modification of the translations by branch or
     - Configure if we allow the modification of the translations directly in the branch.
     
 Go to your repository and create a new pull request, for example:
-![image](https://github.com/babelfu/demo/assets/16633/ba12171d-3499-4666-b677-1244a1707f63)
-
+![image](https://github.com/babelfu/demo/assets/16633/db0ef18f-6e8a-40a7-bb6d-ddcd4197f38e)
 
 Return to Babelfu and click "Sync translations" to fetch the changes. In the future, it will listen to the GitHub events to sync automatically. You can click on the new pull request as soon as you see it. (Don't wait until the "Sync in progress" finish; it may be quite buggy)
 ![image](https://github.com/babelfu/demo/assets/16633/27b79827-a097-4568-bbc0-1a37aba473be)
