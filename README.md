@@ -39,9 +39,14 @@ Go to your repository and create a new pull request, for example:
 ![image](https://github.com/babelfu/demo/assets/16633/ba12171d-3499-4666-b677-1244a1707f63)
 
 
-Return to Babelfu and click "Sync translations" to fetch the changes. In the future it would listen to the GitHub events to sync automatically.
+Return to Babelfu and click "Sync translations" to fetch the changes. In the future, it will listen to the GitHub events to sync automatically. You can click on the new pull request as soon as you see it. (Don't wait until the "Sync in progress" finish; it may be quite buggy)
+![image](https://github.com/babelfu/demo/assets/16633/27b79827-a097-4568-bbc0-1a37aba473be)
 
-Check the "Locales" dropdown to select the languages you want to see.
-You can filter the translations by using the "With proposals" and "With changes" toggles. I have to rethink the behaviour in conjunction with the "Locales" dropdown. Of course you can search the translations by key.
+
+Once on the translations view, check the "Locales" dropdown to select the languages you want to see. You can filter the translations using the "With proposals" and "With changes" toggles. I must rethink the behaviour in conjunction with the "Locales" dropdown and click "Search" to apply the changes. Of course, you can filter the translations by key.
+
+![image](https://github.com/babelfu/demo/assets/16633/5f72f9a9-c679-4192-bb8f-5836c3d5098e)
+
+
 - You will see the changes on the "Translations" page. Now, you can modify the same translations or others. Once you are happy with the changes, click "Commit changes" to commit the changes to the pull request.
 On the "Commits view," you will see a preview of the changes. If you are sure, you can click "Commit changes" to commit the changes to the pull request. Under the hood, it will sync the head and base branches.
