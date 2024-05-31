@@ -21,7 +21,7 @@ On Github, authorize Babelfu to access some of your repositories. To continue wi
 
 Now you can create a new Project for real. You can leave the "name" empty, select the repository, leave the default locale and translations path with the default values, and click "Create Project".
 
-![image](screenshots/new-project.ong)
+![image](screenshots/new-project.png)
 
 
 You will be redirected to the "Project" page. The project will start syncing immediately, fetching the branches and opening pull requests. Now, you can invite other people to the project who can collaborate without a GitHub account.
