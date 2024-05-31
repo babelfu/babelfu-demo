@@ -50,5 +50,10 @@ When there are changes, they will appear in different colours (something that ne
 Try editing several translations, for example:
 ![image](https://github.com/babelfu/demo/assets/16633/647cbe96-1609-40b8-bd30-6cd70eef4ef3)
 
-Once you are happy with the changes, click "Commit changes". On the "Commits view," you will see a preview of the changes. You can click "Commit changes" to commit the changes to the pull request if you are sure. Under the hood, it will sync the head and base branches.
+Once you are happy with the changes, click "Commit changes". On the "Commits view," you will see a preview of the changes (another view for improving) and the previous commits. Click "Commit changes" to commit the changes for real.
 
+![image](https://github.com/babelfu/babelfu-demo/assets/16633/89d910bb-1289-4126-ac45-10aeea92deae)
+
+The commit process will sync the branches again, try to commit the changes and sync the branches again
+
+![image](https://github.com/babelfu/babelfu-demo/assets/16633/088b8d7b-19e0-44b3-9203-b458f8a9c8cd)
