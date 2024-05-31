@@ -29,38 +29,38 @@ Now you can create a new Project for real. You can leave the "name" empty, selec
 
 You will be redirected to the "Project" page. The project will start syncing immediately, fetching the branches and opening pull requests.
 
-![image](https://github.com/babelfu/demo/assets/16633/d6ca1895-47dd-41d3-8a37-8d2f9a8efb1c)
+![image](screenshots/project-show.png)
 
 Babelfu allows the exploration and modification of the translations by branch or pull request. While you can modify the translations for a branch directly, I recommend modifying the translations in an existing pull request as you would in a normal code change. In the future, I would like to:
     - Create a pull request from the UI.
     - Configure if we allow the modification of the translations directly in the branch.
-    
+
 Go to your repository and create a new pull request, for example:
-![image](https://github.com/babelfu/demo/assets/16633/db0ef18f-6e8a-40a7-bb6d-ddcd4197f38e)
+![image](screenshots/vim-translations.png)
 
 Return to Babelfu and click "Sync translations" to fetch the changes. In the future, it will listen to the GitHub events to sync automatically. You can click on the new pull request as soon as you see it. (Don't wait until the "Sync in progress" finish; it may be quite buggy)
-![image](https://github.com/babelfu/demo/assets/16633/27b79827-a097-4568-bbc0-1a37aba473be)
+![image](screenshots/projects-show-synced.png)
 
 
 Once on the translations view, check the "Locales" dropdown to select the languages you want to see. You can filter the translations using the "With proposals" and "With changes" toggles. I must rethink the behaviour in conjunction with the "Locales" dropdown and click "Search" to apply the changes. Of course, you can filter the translations by key.
 
 When there are changes, they will appear in different colours (something that needs to be improved), yellow for the value in the base branch, blue the value in the head branch, and green the proposals pending to commit on Babelfu.
-![image](https://github.com/babelfu/demo/assets/16633/55037247-1dfe-43bb-822e-271b74470695)
+![image](screenshots/translations.png)
 
 Try editing several translations, for example:
-![image](https://github.com/babelfu/demo/assets/16633/647cbe96-1609-40b8-bd30-6cd70eef4ef3)
+![image](screenshots/translations-edit.png)
 
 Once you are happy with the changes, click "Commit changes". On the "Commits view," you will see a preview of the changes (another view for improving) and the previous commits. Click "Commit changes" to commit the changes for real.
 
-![image](https://github.com/babelfu/babelfu-demo/assets/16633/89d910bb-1289-4126-ac45-10aeea92deae)
+![image](screenshots/changes-to-commit.png)
 
 The commit process will sync the branches again; try to commit the changes and sync the branches again.
 
-![image](https://github.com/babelfu/babelfu-demo/assets/16633/088b8d7b-19e0-44b3-9203-b458f8a9c8cd)
+![image](screenshots/commit-in-progress.png)
 
 Finally, you will see a link to the commit, and no changes are pending.
-![image](https://github.com/babelfu/babelfu-demo/assets/16633/d897b08c-3040-4ced-a766-b1e00bfc3f86)
+![image](screenshots/commit-done.png)
 
 If you follow the link, you can see the commit on GitHub. This commit contains the new keys and values.
-![image](https://github.com/babelfu/babelfu-demo/assets/16633/95c57aa1-3880-4f9a-8b08-6ffeda0e066a)
+![image](screenshots/commit-on-github.png)
 
