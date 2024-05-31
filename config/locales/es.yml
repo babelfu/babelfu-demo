@@ -1,7 +1,9 @@
+---
 es:
   colors:
-    red: "rojo"
-    blue: "azul"
+    red: rojo
+    blue: azul
   greetings:
-    hello: "Hola mundo"
-    goodnight: "Buenas noches"
+    hello: Hola mundo!
+    goodnight: Buenas noches
+    goodbye: Adios
