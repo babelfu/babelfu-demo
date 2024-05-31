@@ -54,6 +54,13 @@ Once you are happy with the changes, click "Commit changes". On the "Commits vie
 
 ![image](https://github.com/babelfu/babelfu-demo/assets/16633/89d910bb-1289-4126-ac45-10aeea92deae)
 
-The commit process will sync the branches again, try to commit the changes and sync the branches again
+The commit process will sync the branches again; try to commit the changes and sync the branches again.
 
 ![image](https://github.com/babelfu/babelfu-demo/assets/16633/088b8d7b-19e0-44b3-9203-b458f8a9c8cd)
+
+Finally, you will see a link to the commit, and no changes are pending.
+![image](https://github.com/babelfu/babelfu-demo/assets/16633/d897b08c-3040-4ced-a766-b1e00bfc3f86)
+
+If you follow the link, you can see the commit on GitHub. This commit contains the new keys and values.
+![image](https://github.com/babelfu/babelfu-demo/assets/16633/95c57aa1-3880-4f9a-8b08-6ffeda0e066a)
+
